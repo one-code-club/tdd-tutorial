@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { Header } from '@/components/layout/header'
@@ -26,6 +26,7 @@ const BlocklyEditor = dynamic(
 export default function WorkspacePage() {
   const router = useRouter()
   const blocklyRef = useRef<BlocklyEditorHandle>(null)
+  const fileInputRef = useRef<HTMLInputElement>(null)
   const [editorReady, setEditorReady] = useState(false)
   const { session, isLoading, logout, updateActivity } = useSession()
   const { setCode, messages, isExecuting, execute, clearMessages } =
@@ -60,6 +61,57 @@ export default function WorkspacePage() {
     blocklyRef.current?.handleExecute()
   }
 
+  const handleDownload = useCallback(() => {
+    const json = blocklyRef.current?.exportWorkspace()
+    if (json) {
+      const blob = new Blob([json], { type: 'application/json' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `tdd-blocks-${Date.now()}.json`
+      a.click()
+      URL.revokeObjectURL(url)
+    }
+  }, [])
+
+  const handleImportClick = useCallback(() => {
+    fileInputRef.current?.click()
+  }, [])
+
+  const handleFileChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) {
+      // File size limit: 5MB
+      const MAX_FILE_SIZE = 5 * 1024 * 1024
+      if (file.size > MAX_FILE_SIZE) {
+        alert('ファイルサイズが大きすぎます。5MB以下のファイルを選択してください。')
+        e.target.value = ''
+        return
+      }
+
+      // Confirm before overwriting
+      if (!window.confirm('現在のワークスペースは上書きされます。続行しますか？')) {
+        e.target.value = ''
+        return
+      }
+
+      const reader = new FileReader()
+      reader.onload = (event) => {
+        const json = event.target?.result as string
+        const success = blocklyRef.current?.importWorkspace(json)
+        if (!success) {
+          alert('ファイルのインポートに失敗しました。正しい形式のファイルか確認してください。')
+        }
+      }
+      reader.onerror = () => {
+        alert('ファイルの読み込みに失敗しました。')
+      }
+      reader.readAsText(file)
+    }
+    // Reset to allow re-selecting the same file
+    e.target.value = ''
+  }, [])
+
   // Poll for editor ready state
   useEffect(() => {
     const checkReady = () => {
@@ -85,7 +137,22 @@ export default function WorkspacePage() {
 
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col">
-      <Header nickname={session.nickname} onLogout={handleLogout} />
+      <Header
+        nickname={session.nickname}
+        onLogout={handleLogout}
+        onDownload={handleDownload}
+        onImport={handleImportClick}
+      />
+
+      {/* Hidden file input for import */}
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept=".json"
+        onChange={handleFileChange}
+        className="hidden"
+        aria-label="ワークスペースファイルを選択"
+      />
 
       <main className="flex-1 p-4 flex flex-row gap-4 overflow-hidden">
         <div className="flex-1 min-w-0">

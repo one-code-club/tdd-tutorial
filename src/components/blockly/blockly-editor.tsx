@@ -19,6 +19,8 @@ interface BlocklyEditorProps {
 export interface BlocklyEditorHandle {
   handleExecute: () => void
   isReady: boolean
+  exportWorkspace: () => string | null
+  importWorkspace: (json: string) => boolean
 }
 
 let blocksRegistered = false
@@ -196,10 +198,46 @@ export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>
     onExecute?.(code)
   }, [generateCode, onCodeGenerated, onExecute])
 
+  const exportWorkspace = useCallback((): string | null => {
+    if (!workspaceRef.current) return null
+    try {
+      const state = Blockly.serialization.workspaces.save(workspaceRef.current)
+      return JSON.stringify(state, null, 2)
+    } catch {
+      return null
+    }
+  }, [])
+
+  const importWorkspace = useCallback((json: string): boolean => {
+    if (!workspaceRef.current) return false
+    try {
+      const state = JSON.parse(json)
+
+      // Basic schema validation
+      if (typeof state !== 'object' || state === null) {
+        return false
+      }
+
+      // Validate expected Blockly workspace structure
+      if (state.blocks !== undefined && typeof state.blocks !== 'object') {
+        return false
+      }
+
+      Blockly.serialization.workspaces.load(state, workspaceRef.current)
+      // Save to localStorage to persist the imported state
+      saveWorkspace(workspaceRef.current)
+      return true
+    } catch {
+      return false
+    }
+  }, [])
+
   useImperativeHandle(ref, () => ({
     handleExecute,
     isReady,
-  }), [handleExecute, isReady])
+    exportWorkspace,
+    importWorkspace,
+  }), [handleExecute, isReady, exportWorkspace, importWorkspace])
 
   useEffect(() => {
     if (!containerRef.current || workspaceRef.current) return
