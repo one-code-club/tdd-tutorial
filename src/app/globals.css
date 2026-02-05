@@ -122,3 +122,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Blockly: フライアウトのスクロールバー（縦線）を常に非表示 */
+.blocklyFlyoutScrollbar {
+  display: none !important;
+}
+
+/* フライアウトの背景の枠線（デバイダー）を非表示 */
+.blocklyFlyoutBackground {
+  stroke: transparent !important;
+  stroke-width: 0 !important;
+}
