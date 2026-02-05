@@ -1,12 +1,13 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { Header } from '@/components/layout/header'
 import { ConsoleOutput } from '@/components/console/console-output'
 import { useSession } from '@/hooks/use-session'
 import { useCodeExecution } from '@/hooks/use-code-execution'
+import type { BlocklyEditorHandle } from '@/components/blockly/blockly-editor'
 
 // Dynamically import BlocklyEditor to avoid SSR issues
 const BlocklyEditor = dynamic(
@@ -24,6 +25,8 @@ const BlocklyEditor = dynamic(
 
 export default function WorkspacePage() {
   const router = useRouter()
+  const blocklyRef = useRef<BlocklyEditorHandle>(null)
+  const [editorReady, setEditorReady] = useState(false)
   const { session, isLoading, logout, updateActivity } = useSession()
   const { setCode, messages, isExecuting, execute, clearMessages } =
     useCodeExecution()
@@ -54,8 +57,19 @@ export default function WorkspacePage() {
 
   const handleExecute = () => {
     clearMessages()
-    execute()
+    blocklyRef.current?.handleExecute()
   }
+
+  // Poll for editor ready state
+  useEffect(() => {
+    const checkReady = () => {
+      if (blocklyRef.current?.isReady) {
+        setEditorReady(true)
+      }
+    }
+    const interval = setInterval(checkReady, 100)
+    return () => clearInterval(interval)
+  }, [])
 
   if (isLoading) {
     return (
@@ -76,15 +90,20 @@ export default function WorkspacePage() {
       <main className="flex-1 p-4 flex flex-row gap-4 overflow-hidden">
         <div className="flex-1 min-w-0">
           <BlocklyEditor
+            ref={blocklyRef}
             onCodeGenerated={handleCodeGenerated}
-            onExecute={handleExecute}
-            isExecuting={isExecuting}
-            onClear={clearMessages}
+            onExecute={execute}
             className="h-full"
           />
         </div>
 
-        <ConsoleOutput messages={messages} isExecuting={isExecuting} className="w-80 flex-shrink-0" />
+        <ConsoleOutput
+          messages={messages}
+          isExecuting={isExecuting}
+          isReady={editorReady}
+          onExecute={handleExecute}
+          className="w-80 flex-shrink-0"
+        />
       </main>
     </div>
   )

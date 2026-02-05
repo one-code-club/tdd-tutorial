@@ -1,2 +1,4372 @@
 [    6712ms] [WARNING] Blockly.Workspace.getAllVariables was deprecated in v12 and will be deleted in v13.
 Use Blockly.Workspace.getVariableMap().getAllVariables instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 2806599ms] ReferenceError: CardHeader is not defined
+    at BlocklyEditor (http://localhost:3000/_next/static/chunks/src_components_blockly_7578e310._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fblockly%252Fblockly-editor.tsx+%255Bapp-client%255D+%2528ecmascript%2529:318:216)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6687:639)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9105:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)
+[ 2811951ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2811993ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812037ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812089ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812138ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812186ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812236ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812288ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812336ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812387ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812436ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812485ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812538ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812586ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812638ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812690ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812739ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812789ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812837ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812889ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812940ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2812989ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813038ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813090ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813139ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813190ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813239ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813290ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813340ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813389ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813437ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813486ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813534ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813586ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813651ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813693ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813742ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813806ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813872ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813935ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2813973ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814022ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814071ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814124ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814173ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814222ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814270ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814323ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814373ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814421ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814473ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814523ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814571ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814622ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814672ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814723ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814774ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814823ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814872ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814922ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2814973ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815022ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815071ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815124ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815175ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815233ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815276ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815323ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815373ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815423ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815474ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815525ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815573ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815625ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815674ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815725ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815775ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815841ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815890ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815939ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2815989ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816038ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816104ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816153ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816203ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816255ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816307ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816357ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816407ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816456ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816508ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816558ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816606ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816657ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816707ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816755ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816805ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816844ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816892ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2816942ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817008ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817071ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817119ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817167ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817215ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817293ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817355ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817403ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817451ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:343:1
+Parsing ecmascript source code failed
+  341 |   )
+  342 | }
+> 343 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817530ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817593ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817643ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817692ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817729ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817779ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817828ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817876ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817926ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2817978ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818027ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818077ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818129ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818178ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818228ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818279ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818327ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818392ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818445ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818509ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818561ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818614ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818660ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818711ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818763ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818814ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818864ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818913ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2818961ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819012ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819063ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819125ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819176ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819228ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819293ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819347ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819396ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819445ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819508ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819548ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819596ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819646ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819696ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819747ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819796ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819843ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819896ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819944ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2819996ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820046ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820095ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820143ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820196ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820248ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820297ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820359ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820412ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820462ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820512ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820562ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820614ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820661ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820711ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820763ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820813ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820863ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820912ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2820963ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821014ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821077ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821127ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821179ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821216ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821280ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821329ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821380ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821430ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821481ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821528ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821581ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821630ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821679ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821731ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821780ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821832ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821881ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821931ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2821981ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822033ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822081ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822130ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822180ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822230ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822280ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822331ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822396ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822447ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822497ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822544ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822608ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822664ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822714ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822765ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822814ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822877ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822915ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2822962ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823014ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823064ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823118ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823165ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823214ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823278ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823342ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823382ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823431ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823482ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823531ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823582ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823631ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823680ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823731ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823782ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823833ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823882ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823931ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2823978ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824016ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824067ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824115ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824168ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824216ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824264ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824312ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824367ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824416ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824465ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824515ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824565ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824616ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824682ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824734ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824783ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824832ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824883ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824933ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2824983ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825033ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825082ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825133ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825182ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825234ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825285ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825333ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825385ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825433ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825483ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825534ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825584ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825634ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825685ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825734ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825783ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825835ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825884ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825934ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2825984ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826035ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826084ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826134ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826186ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826235ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826284ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826336ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826385ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826436ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826485ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826536ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826584ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826634ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826682ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826720ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826770ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826817ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826866ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826930ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2826969ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827017ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827070ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827118ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827171ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827219ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827267ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827314ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827378ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827442ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827506ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827569ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827632ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827695ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827759ms] [ERROR] ./src/components/blockly/blockly-editor.tsx:340:1
+Parsing ecmascript source code failed
+  338 |   )
+  339 | }
+> 340 |
+      | ^
+
+Expected ',', got '<eof>'
+
+Import trace:
+  Client Component Browser:
+    ./src/components/blockly/blockly-editor.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Client Component Browser]
+    ./src/app/workspace/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[ 2827798ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 2827815ms] TypeError: Component is not a function
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14826:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4651:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6112:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6687:639)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9562:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9456:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9440:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9105:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10230:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:2647:64)
+[ 2828502ms] [WARNING] Blockly.Workspace.getAllVariables was deprecated in v12 and will be deleted in v13.
+Use Blockly.Workspace.getVariableMap().getAllVariables instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[ 2848589ms] [WARNING] Blockly.Workspace.getAllVariables was deprecated in v12 and will be deleted in v13.
+Use Blockly.Workspace.getVariableMap().getAllVariables instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297

@@ -1,12 +1,10 @@
 'use client'
 
-import { useEffect, useRef, useState, useCallback } from 'react'
+import { useEffect, useRef, useState, useCallback, forwardRef, useImperativeHandle } from 'react'
 import * as Blockly from 'blockly'
 import { javascriptGenerator } from 'blockly/javascript'
 import 'blockly/blocks'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
-import { Play, Trash2 } from 'lucide-react'
+import { Card, CardContent } from '@/components/ui/card'
 import { registerAllBlocks } from './blocks'
 import { registerGenerators } from './generators/javascript'
 import { toolboxConfig } from './toolbox'
@@ -15,9 +13,12 @@ import { cn } from '@/lib/utils'
 interface BlocklyEditorProps {
   onCodeGenerated?: (code: string) => void
   onExecute?: () => void
-  onClear?: () => void
-  isExecuting?: boolean
   className?: string
+}
+
+export interface BlocklyEditorHandle {
+  handleExecute: () => void
+  isReady: boolean
 }
 
 let blocksRegistered = false
@@ -131,13 +132,11 @@ const darkTheme = Blockly.Theme.defineTheme('darkTheme', {
   },
 })
 
-export function BlocklyEditor({
+export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>(function BlocklyEditor({
   onCodeGenerated,
   onExecute,
-  onClear,
-  isExecuting = false,
   className,
-}: BlocklyEditorProps) {
+}, ref) {
   const containerRef = useRef<HTMLDivElement>(null)
   const workspaceRef = useRef<Blockly.WorkspaceSvg | null>(null)
   const [isReady, setIsReady] = useState(false)
@@ -147,7 +146,44 @@ export function BlocklyEditor({
 
     try {
       const code = javascriptGenerator.workspaceToCode(workspaceRef.current)
-      return code
+
+      // Reorder code: function definitions first, then test cases
+      // This ensures functions are defined before tests run
+      const lines = code.split('\n')
+      const functions: string[] = []
+      const others: string[] = []
+
+      let inFunction = false
+      let braceCount = 0
+      let currentFunction: string[] = []
+
+      for (const line of lines) {
+        if (!inFunction && line.match(/^function\s+[\w\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]+\s*\(/)) {
+          inFunction = true
+          braceCount = 0
+          currentFunction = [line]
+        } else if (inFunction) {
+          currentFunction.push(line)
+        } else {
+          others.push(line)
+        }
+
+        if (inFunction) {
+          braceCount += (line.match(/\{/g) || []).length
+          braceCount -= (line.match(/\}/g) || []).length
+
+          if (braceCount === 0) {
+            functions.push(currentFunction.join('\n'))
+            currentFunction = []
+            inFunction = false
+          }
+        }
+      }
+
+      // Put functions first, then the rest (test cases)
+      const reorderedCode = functions.join('\n') + '\n' + others.join('\n')
+
+      return reorderedCode
     } catch (error) {
       console.error('Code generation error:', error)
       return ''
@@ -160,13 +196,10 @@ export function BlocklyEditor({
     onExecute?.()
   }, [generateCode, onCodeGenerated, onExecute])
 
-  const handleClear = useCallback(() => {
-    if (workspaceRef.current) {
-      workspaceRef.current.clear()
-      saveWorkspace(workspaceRef.current)
-    }
-    onClear?.()
-  }, [onClear])
+  useImperativeHandle(ref, () => ({
+    handleExecute,
+    isReady,
+  }), [handleExecute, isReady])
 
   useEffect(() => {
     if (!containerRef.current || workspaceRef.current) return
@@ -267,33 +300,6 @@ export function BlocklyEditor({
 
   return (
     <Card className={cn('bg-gray-800 border-gray-700 flex flex-col', className)}>
-      <CardHeader className="py-1.5 px-3 border-b border-gray-700 flex flex-row items-center">
-        <CardTitle className="text-xs font-medium text-gray-400 flex-shrink-0">
-          ブロックエディタ
-        </CardTitle>
-        <div className="flex-1 flex justify-center gap-2">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={handleClear}
-            className="text-gray-400 hover:text-white h-7 text-xs px-2"
-            disabled={!isReady}
-          >
-            <Trash2 className="h-3 w-3 mr-1" />
-            クリア
-          </Button>
-          <Button
-            size="sm"
-            onClick={handleExecute}
-            className="bg-green-600 hover:bg-green-700 h-7 text-xs px-3"
-            disabled={!isReady || isExecuting}
-          >
-            <Play className="h-3 w-3 mr-1" />
-            {isExecuting ? '実行中...' : '実行'}
-          </Button>
-        </div>
-        <div className="flex-shrink-0 w-20" />
-      </CardHeader>
       <CardContent className="p-0 flex-1 min-h-0">
         <div
           ref={containerRef}
@@ -303,4 +309,4 @@ export function BlocklyEditor({
       </CardContent>
     </Card>
   )
-}
+})

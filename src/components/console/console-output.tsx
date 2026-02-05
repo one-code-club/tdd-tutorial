@@ -2,7 +2,8 @@
 
 import { useRef, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Terminal, CheckCircle, XCircle, Clock } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Terminal, CheckCircle, XCircle, Clock, Play } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 export interface ConsoleMessage {
@@ -15,10 +16,12 @@ export interface ConsoleMessage {
 interface ConsoleOutputProps {
   messages: ConsoleMessage[]
   isExecuting?: boolean
+  isReady?: boolean
+  onExecute?: () => void
   className?: string
 }
 
-export function ConsoleOutput({ messages, isExecuting = false, className }: ConsoleOutputProps) {
+export function ConsoleOutput({ messages, isExecuting = false, isReady = false, onExecute, className }: ConsoleOutputProps) {
   const scrollRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -72,7 +75,7 @@ export function ConsoleOutput({ messages, isExecuting = false, className }: Cons
 
   return (
     <Card className={cn('bg-gray-900 border-gray-700 flex flex-col', className)}>
-      <CardHeader className="py-1.5 px-3 border-b border-gray-700 flex-shrink-0">
+      <CardHeader className="py-1.5 px-3 border-b border-gray-700 flex-shrink-0 flex flex-row items-center justify-between">
         <CardTitle className="text-xs font-medium text-gray-400 flex items-center gap-2">
           <Terminal className="h-3 w-3" />
           コンソール
@@ -83,6 +86,15 @@ export function ConsoleOutput({ messages, isExecuting = false, className }: Cons
             </span>
           )}
         </CardTitle>
+        <Button
+          size="sm"
+          onClick={onExecute}
+          className="bg-green-600 hover:bg-green-700 h-7 text-xs px-3"
+          disabled={!isReady || isExecuting}
+        >
+          <Play className="h-3 w-3 mr-1" />
+          {isExecuting ? '実行中...' : '実行'}
+        </Button>
       </CardHeader>
       <CardContent className="p-0 flex-1 min-h-0">
         <div
