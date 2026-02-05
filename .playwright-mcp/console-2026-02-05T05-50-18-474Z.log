@@ -1,0 +1,2 @@
+[    6712ms] [WARNING] Blockly.Workspace.getAllVariables was deprecated in v12 and will be deleted in v13.
+Use Blockly.Workspace.getVariableMap().getAllVariables instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
