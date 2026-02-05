@@ -41,6 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 #AI related
-.claude
-.playwright-mcp
-*.png
+/.claude/
+/.playwright-mcp/
