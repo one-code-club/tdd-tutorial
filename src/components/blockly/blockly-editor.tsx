@@ -12,7 +12,7 @@ import { cn } from '@/lib/utils'
 
 interface BlocklyEditorProps {
   onCodeGenerated?: (code: string) => void
-  onExecute?: () => void
+  onExecute?: (code: string) => void
   className?: string
 }
 
@@ -193,7 +193,7 @@ export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>
   const handleExecute = useCallback(() => {
     const code = generateCode()
     onCodeGenerated?.(code)
-    onExecute?.()
+    onExecute?.(code)
   }, [generateCode, onCodeGenerated, onExecute])
 
   useImperativeHandle(ref, () => ({

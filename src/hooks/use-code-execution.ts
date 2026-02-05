@@ -34,8 +34,9 @@ export function useCodeExecution() {
     []
   )
 
-  const execute = useCallback(async () => {
-    if (!code.trim()) {
+  const execute = useCallback(async (codeToExecute?: string) => {
+    const targetCode = codeToExecute ?? code
+    if (!targetCode.trim()) {
       addMessage('info', 'コードがありません。ブロックを配置してください。')
       return
     }
@@ -44,7 +45,7 @@ export function useCodeExecution() {
     addMessage('info', '実行を開始します...')
 
     const executor = getExecutor()
-    const result = await executor.execute(code)
+    const result = await executor.execute(targetCode)
 
     // Add output messages with test result parsing
     result.output.forEach((line) => {
