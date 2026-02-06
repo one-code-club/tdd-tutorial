@@ -3,10 +3,12 @@
 import { useRouter } from 'next/navigation'
 import { LoginForm } from '@/components/auth/login-form'
 import { useSession } from '@/hooks/use-session'
+import { useI18n } from '@/i18n'
 import { useEffect } from 'react'
 
 export default function Home() {
   const router = useRouter()
+  const { t } = useI18n()
   const { session, isLoading, login } = useSession()
 
   useEffect(() => {
@@ -25,7 +27,7 @@ export default function Home() {
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-        <div className="text-gray-400">読み込み中...</div>
+        <div className="text-gray-400">{t.common.loading}</div>
       </div>
     )
   }

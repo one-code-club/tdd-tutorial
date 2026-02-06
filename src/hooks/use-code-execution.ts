@@ -2,9 +2,11 @@
 
 import { useState, useCallback, useRef } from 'react'
 import { CodeExecutor } from '@/lib/sandbox/executor'
+import { useI18n } from '@/i18n'
 import type { ConsoleMessage } from '@/components/console/console-output'
 
 export function useCodeExecution() {
+  const { t } = useI18n()
   const executorRef = useRef<CodeExecutor | null>(null)
   const [messages, setMessages] = useState<ConsoleMessage[]>([])
   const [isExecuting, setIsExecuting] = useState(false)
@@ -37,12 +39,12 @@ export function useCodeExecution() {
   const execute = useCallback(async (codeToExecute?: string) => {
     const targetCode = codeToExecute ?? code
     if (!targetCode.trim()) {
-      addMessage('info', 'コードがありません。ブロックを配置してください。')
+      addMessage('info', t.console.noCode)
       return
     }
 
     setIsExecuting(true)
-    addMessage('info', '実行を開始します...')
+    addMessage('info', t.console.executionStart)
 
     const executor = getExecutor()
     const result = await executor.execute(targetCode)
@@ -52,13 +54,13 @@ export function useCodeExecution() {
       // Parse test markers and convert to appropriate message types
       if (line.startsWith('[TEST_START] ')) {
         const testName = line.replace('[TEST_START] ', '')
-        addMessage('info', `📋 テスト開始: ${testName}`)
+        addMessage('info', t.console.testStart(testName))
       } else if (line.startsWith('[TEST_PASS] ')) {
         const testName = line.replace('[TEST_PASS] ', '')
-        addMessage('success', `✓ テスト成功: ${testName}`)
+        addMessage('success', t.console.testPass(testName))
       } else if (line.startsWith('[TEST_FAIL] ')) {
         const testName = line.replace('[TEST_FAIL] ', '')
-        addMessage('error', `✗ テスト失敗: ${testName}`)
+        addMessage('error', t.console.testFail(testName))
       } else if (line.startsWith('[TEST_ERROR] ')) {
         const errorMsg = line.replace('[TEST_ERROR] ', '')
         addMessage('error', `    ${errorMsg}`)
@@ -72,14 +74,14 @@ export function useCodeExecution() {
     if (result.success) {
       addMessage(
         'success',
-        `実行完了 (${result.executionTime.toFixed(1)}ms)`
+        t.console.executionComplete(result.executionTime.toFixed(1))
       )
     } else {
-      addMessage('error', result.error || '実行エラー')
+      addMessage('error', result.error || t.console.executionError)
     }
 
     setIsExecuting(false)
-  }, [code, addMessage, getExecutor])
+  }, [code, addMessage, getExecutor, t.console])
 
   const clearMessages = useCallback(() => {
     setMessages([])

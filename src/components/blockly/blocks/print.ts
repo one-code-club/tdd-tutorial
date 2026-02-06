@@ -1,25 +1,24 @@
 import * as Blockly from 'blockly'
+import type { Translations } from '@/i18n/types'
 
-export const PRINT_BLOCK = {
-  type: 'print',
-  message0: '出力 %1',
-  args0: [
-    {
-      type: 'input_value',
-      name: 'TEXT',
-    },
-  ],
-  previousStatement: null,
-  nextStatement: null,
-  colour: 160,
-  tooltip: 'コンソールに値を出力します',
-  helpUrl: '',
-}
-
-export function registerPrintBlock() {
+export function registerPrintBlock(t: Translations['blockly']['blocks']['print']) {
   Blockly.Blocks['print'] = {
     init: function () {
-      this.jsonInit(PRINT_BLOCK)
+      this.jsonInit({
+        type: 'print',
+        message0: `${t.label} %1`,
+        args0: [
+          {
+            type: 'input_value',
+            name: 'TEXT',
+          },
+        ],
+        previousStatement: null,
+        nextStatement: null,
+        colour: 160,
+        tooltip: t.tooltip,
+        helpUrl: '',
+      })
     },
   }
 }

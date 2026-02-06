@@ -5,25 +5,42 @@ export const SESSION_STORAGE_KEY = 'tdd-tutorial-session'
 // Nickname validation: 2-20 characters, alphanumeric, Japanese, or underscore
 const NICKNAME_PATTERN = /^[\p{L}\p{N}_]{2,20}$/u
 
-export function validateNickname(nickname: string): SessionValidationResult {
+export interface ValidationTranslations {
+  nicknameRequired: string
+  nicknameTooShort: string
+  nicknameTooLong: string
+  nicknameInvalidChars: string
+}
+
+const defaultTranslations: ValidationTranslations = {
+  nicknameRequired: 'ニックネームを入力してください',
+  nicknameTooShort: 'ニックネームは2文字以上で入力してください',
+  nicknameTooLong: 'ニックネームは20文字以下で入力してください',
+  nicknameInvalidChars: 'ニックネームは文字、数字、アンダースコアのみ使用できます',
+}
+
+export function validateNickname(
+  nickname: string,
+  translations: ValidationTranslations = defaultTranslations
+): SessionValidationResult {
   const errors: string[] = []
   const trimmed = nickname.trim()
 
   if (trimmed.length === 0) {
-    errors.push('ニックネームを入力してください')
+    errors.push(translations.nicknameRequired)
     return { valid: false, errors }
   }
 
   if (trimmed.length < 2) {
-    errors.push('ニックネームは2文字以上で入力してください')
+    errors.push(translations.nicknameTooShort)
   }
 
   if (trimmed.length > 20) {
-    errors.push('ニックネームは20文字以下で入力してください')
+    errors.push(translations.nicknameTooLong)
   }
 
   if (!NICKNAME_PATTERN.test(trimmed)) {
-    errors.push('ニックネームは文字、数字、アンダースコアのみ使用できます')
+    errors.push(translations.nicknameInvalidChars)
   }
 
   return {

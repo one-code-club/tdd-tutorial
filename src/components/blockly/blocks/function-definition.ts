@@ -1,15 +1,15 @@
 import * as Blockly from 'blockly'
+import type { Translations } from '@/i18n/types'
 
-// シンプルな関数定義ブロック（引数なし、戻り値なし）
-export function registerFunctionDefinitionBlock() {
+export function registerFunctionDefinitionBlock(t: Translations['blockly']['blocks']['functionDef']) {
   Blockly.Blocks['function_definition'] = {
     init: function () {
       this.appendDummyInput()
-        .appendField('関数')
+        .appendField(t.label)
         .appendField(new Blockly.FieldTextInput('myFunction'), 'NAME')
       this.appendStatementInput('BODY')
       this.setColour(290)
-      this.setTooltip('関数を定義します。中のブロックをまとめて実行できます。')
+      this.setTooltip(t.tooltip)
       this.setHelpUrl('')
     },
   }

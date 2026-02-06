@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { validateNickname } from '@/lib/session/session-manager'
 import { Code2 } from 'lucide-react'
+import { useI18n } from '@/i18n'
 
 interface LoginFormProps {
   onSubmit: (nickname: string) => void
@@ -14,13 +15,14 @@ interface LoginFormProps {
 }
 
 export function LoginForm({ onSubmit, isLoading = false }: LoginFormProps) {
+  const { t } = useI18n()
   const [nickname, setNickname] = useState('')
   const [errors, setErrors] = useState<string[]>([])
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
 
-    const validation = validateNickname(nickname)
+    const validation = validateNickname(nickname, t.validation)
     if (!validation.valid) {
       setErrors(validation.errors)
       return
@@ -36,21 +38,21 @@ export function LoginForm({ onSubmit, isLoading = false }: LoginFormProps) {
         <div className="flex justify-center mb-4">
           <Code2 className="h-12 w-12 text-blue-500" />
         </div>
-        <CardTitle className="text-2xl text-white">TDD チュートリアル</CardTitle>
+        <CardTitle className="text-2xl text-white">{t.login.title}</CardTitle>
         <CardDescription className="text-gray-400">
-          プログラミングを楽しく学ぼう！
+          {t.login.description}
         </CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="nickname" className="text-gray-300">
-              ニックネーム
+              {t.login.nicknameLabel}
             </Label>
             <Input
               id="nickname"
               type="text"
-              placeholder="ニックネームを入力"
+              placeholder={t.login.nicknamePlaceholder}
               value={nickname}
               onChange={(e) => {
                 setNickname(e.target.value)
@@ -73,7 +75,7 @@ export function LoginForm({ onSubmit, isLoading = false }: LoginFormProps) {
             className="w-full bg-blue-600 hover:bg-blue-700"
             disabled={isLoading}
           >
-            {isLoading ? 'ログイン中...' : 'はじめる'}
+            {isLoading ? t.login.submitting : t.login.submitButton}
           </Button>
         </form>
       </CardContent>

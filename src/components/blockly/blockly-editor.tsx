@@ -7,8 +7,10 @@ import 'blockly/blocks'
 import { Card, CardContent } from '@/components/ui/card'
 import { registerAllBlocks } from './blocks'
 import { registerGenerators } from './generators/javascript'
-import { toolboxConfig } from './toolbox'
+import { getToolboxConfig } from './toolbox'
+import { useI18n } from '@/i18n'
 import { cn } from '@/lib/utils'
+import type { Locale } from '@/i18n/types'
 
 interface BlocklyEditorProps {
   onCodeGenerated?: (code: string) => void
@@ -23,7 +25,7 @@ export interface BlocklyEditorHandle {
   importWorkspace: (json: string) => boolean
 }
 
-let blocksRegistered = false
+let registeredLocale: Locale | null = null
 
 const WORKSPACE_STORAGE_KEY = 'tdd-tutorial-workspace'
 
@@ -139,9 +141,11 @@ export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>
   onExecute,
   className,
 }, ref) {
+  const { locale, t } = useI18n()
   const containerRef = useRef<HTMLDivElement>(null)
   const workspaceRef = useRef<Blockly.WorkspaceSvg | null>(null)
   const [isReady, setIsReady] = useState(false)
+  const prevLocaleRef = useRef<Locale>(locale)
 
   const generateCode = useCallback(() => {
     if (!workspaceRef.current) return ''
@@ -239,19 +243,40 @@ export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>
     importWorkspace,
   }), [handleExecute, isReady, exportWorkspace, importWorkspace])
 
+  // Handle language change - re-register blocks and update toolbox
+  useEffect(() => {
+    if (prevLocaleRef.current !== locale && workspaceRef.current) {
+      // Save current workspace state
+      const state = Blockly.serialization.workspaces.save(workspaceRef.current)
+
+      // Re-register blocks with new translations
+      registerAllBlocks(t)
+      registeredLocale = locale
+
+      // Update toolbox with new translations
+      workspaceRef.current.updateToolbox(getToolboxConfig(t))
+
+      // Clear and reload workspace to apply new block definitions
+      workspaceRef.current.clear()
+      Blockly.serialization.workspaces.load(state, workspaceRef.current)
+
+      prevLocaleRef.current = locale
+    }
+  }, [locale, t])
+
   useEffect(() => {
     if (!containerRef.current || workspaceRef.current) return
 
-    // Register custom blocks only once
-    if (!blocksRegistered) {
-      registerAllBlocks()
+    // Register custom blocks if not registered or if locale changed
+    if (registeredLocale !== locale) {
+      registerAllBlocks(t)
       registerGenerators()
-      blocksRegistered = true
+      registeredLocale = locale
     }
 
     // Create workspace
     const workspace = Blockly.inject(containerRef.current, {
-      toolbox: toolboxConfig,
+      toolbox: getToolboxConfig(t),
       grid: {
         spacing: 20,
         length: 3,
@@ -281,7 +306,7 @@ export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>
     // Load saved workspace state
     const hasLoaded = loadWorkspace(workspace)
 
-    // Open the first category ("テスト") by default
+    // Open the first category by default
     setTimeout(() => {
       const toolbox = workspace.getToolbox() as Blockly.Toolbox | null
       if (toolbox) {
@@ -334,7 +359,7 @@ export const BlocklyEditor = forwardRef<BlocklyEditorHandle, BlocklyEditorProps>
       workspace.dispose()
       workspaceRef.current = null
     }
-  }, [])
+  }, [locale, t])
 
   return (
     <Card className={cn('bg-gray-800 border-gray-700 flex flex-col', className)}>

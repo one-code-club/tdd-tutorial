@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Terminal, CheckCircle, XCircle, Clock, Play } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { useI18n } from '@/i18n'
 
 export interface ConsoleMessage {
   id: string
@@ -21,7 +22,12 @@ interface ConsoleOutputProps {
   className?: string
 }
 
+// Language-independent test result detection using symbols
+const isTestSuccess = (content: string) => content.startsWith('✓')
+const isTestFailure = (content: string) => content.startsWith('✗')
+
 export function ConsoleOutput({ messages, isExecuting = false, isReady = false, onExecute, className }: ConsoleOutputProps) {
+  const { t } = useI18n()
   const scrollRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -31,11 +37,10 @@ export function ConsoleOutput({ messages, isExecuting = false, isReady = false, 
   }, [messages])
 
   const getIcon = (type: ConsoleMessage['type'], content: string) => {
-    // Check if it's a test result line
-    if (content.includes('テスト成功')) {
+    if (isTestSuccess(content)) {
       return <CheckCircle className="h-4 w-4 text-green-400 flex-shrink-0" />
     }
-    if (content.includes('テスト失敗')) {
+    if (isTestFailure(content)) {
       return <XCircle className="h-4 w-4 text-red-400 flex-shrink-0" />
     }
     switch (type) {
@@ -49,16 +54,13 @@ export function ConsoleOutput({ messages, isExecuting = false, isReady = false, 
   }
 
   const getMessageStyle = (type: ConsoleMessage['type'], content: string) => {
-    // Test success - green background
-    if (content.includes('テスト成功')) {
+    if (isTestSuccess(content)) {
       return 'text-green-300 bg-green-900/30 px-2 py-1 rounded font-semibold'
     }
-    // Test failure - red background
-    if (content.includes('テスト失敗')) {
+    if (isTestFailure(content)) {
       return 'text-red-300 bg-red-900/30 px-2 py-1 rounded font-semibold'
     }
-    // Error details
-    if (type === 'error' && !content.includes('テスト失敗')) {
+    if (type === 'error' && !isTestFailure(content)) {
       return 'text-red-400 pl-6'
     }
     switch (type) {
@@ -78,11 +80,11 @@ export function ConsoleOutput({ messages, isExecuting = false, isReady = false, 
       <CardHeader className="py-1.5 px-3 border-b border-gray-700 flex-shrink-0 flex flex-row items-center justify-between">
         <CardTitle className="text-xs font-medium text-gray-400 flex items-center gap-2">
           <Terminal className="h-3 w-3" />
-          コンソール
+          {t.console.title}
           {isExecuting && (
             <span className="flex items-center gap-1 text-blue-400 text-xs ml-2">
               <Clock className="h-2.5 w-2.5 animate-spin" />
-              実行中...
+              {t.console.executing}
             </span>
           )}
         </CardTitle>
@@ -93,7 +95,7 @@ export function ConsoleOutput({ messages, isExecuting = false, isReady = false, 
           disabled={!isReady || isExecuting}
         >
           <Play className="h-3 w-3 mr-1" />
-          {isExecuting ? '実行中...' : '実行'}
+          {isExecuting ? t.console.executing : t.console.execute}
         </Button>
       </CardHeader>
       <CardContent className="p-0 flex-1 min-h-0">
@@ -103,11 +105,10 @@ export function ConsoleOutput({ messages, isExecuting = false, isReady = false, 
         >
           {messages.length === 0 ? (
             <p className="text-gray-500 text-center py-8">
-              実行結果がここに表示されます
+              {t.console.emptyMessage}
             </p>
           ) : (
             messages.map((message) => {
-              // Empty line for spacing between tests
               if (message.content === '') {
                 return <div key={message.id} className="h-3" />
               }

@@ -7,6 +7,7 @@ import { Header } from '@/components/layout/header'
 import { ConsoleOutput } from '@/components/console/console-output'
 import { useSession } from '@/hooks/use-session'
 import { useCodeExecution } from '@/hooks/use-code-execution'
+import { useI18n } from '@/i18n'
 import type { BlocklyEditorHandle } from '@/components/blockly/blockly-editor'
 
 // Dynamically import BlocklyEditor to avoid SSR issues
@@ -17,7 +18,7 @@ const BlocklyEditor = dynamic(
     ssr: false,
     loading: () => (
       <div className="h-96 bg-gray-800 border border-gray-700 rounded-lg flex items-center justify-center">
-        <div className="text-gray-400">エディタを読み込み中...</div>
+        <div className="text-gray-400">Loading editor...</div>
       </div>
     ),
   }
@@ -25,6 +26,7 @@ const BlocklyEditor = dynamic(
 
 export default function WorkspacePage() {
   const router = useRouter()
+  const { t } = useI18n()
   const blocklyRef = useRef<BlocklyEditorHandle>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [editorReady, setEditorReady] = useState(false)
@@ -84,13 +86,13 @@ export default function WorkspacePage() {
       // File size limit: 5MB
       const MAX_FILE_SIZE = 5 * 1024 * 1024
       if (file.size > MAX_FILE_SIZE) {
-        alert('ファイルサイズが大きすぎます。5MB以下のファイルを選択してください。')
+        alert(t.workspace.fileTooLarge)
         e.target.value = ''
         return
       }
 
       // Confirm before overwriting
-      if (!window.confirm('現在のワークスペースは上書きされます。続行しますか？')) {
+      if (!window.confirm(t.workspace.confirmOverwrite)) {
         e.target.value = ''
         return
       }
@@ -100,17 +102,17 @@ export default function WorkspacePage() {
         const json = event.target?.result as string
         const success = blocklyRef.current?.importWorkspace(json)
         if (!success) {
-          alert('ファイルのインポートに失敗しました。正しい形式のファイルか確認してください。')
+          alert(t.workspace.importFailed)
         }
       }
       reader.onerror = () => {
-        alert('ファイルの読み込みに失敗しました。')
+        alert(t.workspace.readFailed)
       }
       reader.readAsText(file)
     }
     // Reset to allow re-selecting the same file
     e.target.value = ''
-  }, [])
+  }, [t.workspace])
 
   // Poll for editor ready state
   useEffect(() => {
@@ -126,7 +128,7 @@ export default function WorkspacePage() {
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-        <div className="text-gray-400">読み込み中...</div>
+        <div className="text-gray-400">{t.common.loading}</div>
       </div>
     )
   }
@@ -151,7 +153,7 @@ export default function WorkspacePage() {
         accept=".json"
         onChange={handleFileChange}
         className="hidden"
-        aria-label="ワークスペースファイルを選択"
+        aria-label={t.workspace.selectFile}
       />
 
       <main className="flex-1 p-4 flex flex-row gap-4 overflow-hidden">

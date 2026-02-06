@@ -1,30 +1,29 @@
 import * as Blockly from 'blockly'
+import type { Translations } from '@/i18n/types'
 
-export const ASSIGN_VARIABLE_BLOCK = {
-  type: 'assign_variable',
-  message0: '変数 %1 に %2 を代入',
-  args0: [
-    {
-      type: 'field_input',
-      name: 'NAME',
-      text: 'myVar',
-    },
-    {
-      type: 'input_value',
-      name: 'VALUE',
-    },
-  ],
-  previousStatement: null,
-  nextStatement: null,
-  colour: 330,
-  tooltip: '既存の変数に新しい値を代入します。',
-  helpUrl: '',
-}
-
-export function registerAssignVariableBlock() {
+export function registerAssignVariableBlock(t: Translations['blockly']['blocks']['assignVariable']) {
   Blockly.Blocks['assign_variable'] = {
     init: function () {
-      this.jsonInit(ASSIGN_VARIABLE_BLOCK)
+      this.jsonInit({
+        type: 'assign_variable',
+        message0: t.message,
+        args0: [
+          {
+            type: 'field_input',
+            name: 'NAME',
+            text: 'myVar',
+          },
+          {
+            type: 'input_value',
+            name: 'VALUE',
+          },
+        ],
+        previousStatement: null,
+        nextStatement: null,
+        colour: 330,
+        tooltip: t.tooltip,
+        helpUrl: '',
+      })
     },
   }
 }
