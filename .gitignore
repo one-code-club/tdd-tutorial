@@ -40,6 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#AI related
-/.claude/
+# AI / local tooling (do not commit)
+.claude/
 /.playwright-mcp/
